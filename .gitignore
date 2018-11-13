@@ -3,6 +3,7 @@
 /lib
 /lib64
 /include
+Debug
 x86
 x64
 out
