@@ -1,5 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cal", "..\samples\cal\cal.vcxproj", "{F7659D77-09CF-4FE9-ACEE-927287AA9509}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cintltst", "..\test\cintltst\cintltst.vcxproj", "{3D1246AE-1B32-479B-BECA-AEFA97BE2321}"
@@ -62,10 +64,6 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testplug", "..\tools\icuinfo\testplug.vcxproj", "{659D0C08-D4ED-4BF3-B02B-2D8D4B5A7A7A}"
 EndProject
 Global
-	GlobalSection(SubversionScc) = preSolution
-		Svn-Managed = True
-		Manager = AnkhSVN - Subversion Support for Visual Studio
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
 		Debug|x64 = Debug|x64
@@ -185,22 +183,6 @@ Global
 		{73632960-B3A6-464D-83A3-4B43365F19B8}.Release|Win32.Build.0 = Release|Win32
 		{73632960-B3A6-464D-83A3-4B43365F19B8}.Release|x64.ActiveCfg = Release|x64
 		{73632960-B3A6-464D-83A3-4B43365F19B8}.Release|x64.Build.0 = Release|x64
-		{C920062A-0647-4553-A3B2-37C58065664B}.Debug|Win32.ActiveCfg = Debug|Win32
-		{C920062A-0647-4553-A3B2-37C58065664B}.Debug|Win32.Build.0 = Debug|Win32
-		{C920062A-0647-4553-A3B2-37C58065664B}.Debug|x64.ActiveCfg = Debug|x64
-		{C920062A-0647-4553-A3B2-37C58065664B}.Debug|x64.Build.0 = Debug|x64
-		{C920062A-0647-4553-A3B2-37C58065664B}.Release|Win32.ActiveCfg = Release|Win32
-		{C920062A-0647-4553-A3B2-37C58065664B}.Release|Win32.Build.0 = Release|Win32
-		{C920062A-0647-4553-A3B2-37C58065664B}.Release|x64.ActiveCfg = Release|x64
-		{C920062A-0647-4553-A3B2-37C58065664B}.Release|x64.Build.0 = Release|x64
-		{37FC2C7F-1904-4811-8955-2F478830EAD1}.Debug|Win32.ActiveCfg = Debug|Win32
-		{37FC2C7F-1904-4811-8955-2F478830EAD1}.Debug|Win32.Build.0 = Debug|Win32
-		{37FC2C7F-1904-4811-8955-2F478830EAD1}.Debug|x64.ActiveCfg = Debug|x64
-		{37FC2C7F-1904-4811-8955-2F478830EAD1}.Debug|x64.Build.0 = Debug|x64
-		{37FC2C7F-1904-4811-8955-2F478830EAD1}.Release|Win32.ActiveCfg = Release|Win32
-		{37FC2C7F-1904-4811-8955-2F478830EAD1}.Release|Win32.Build.0 = Release|Win32
-		{37FC2C7F-1904-4811-8955-2F478830EAD1}.Release|x64.ActiveCfg = Release|x64
-		{37FC2C7F-1904-4811-8955-2F478830EAD1}.Release|x64.Build.0 = Release|x64
 		{F5AD9738-1A3D-4906-B9C4-A7D9CE33DC2C}.Debug|Win32.ActiveCfg = Debug|Win32
 		{F5AD9738-1A3D-4906-B9C4-A7D9CE33DC2C}.Debug|Win32.Build.0 = Debug|Win32
 		{F5AD9738-1A3D-4906-B9C4-A7D9CE33DC2C}.Debug|x64.ActiveCfg = Debug|x64
@@ -324,5 +306,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5697960-CF9F-4A30-8485-973AD839538F}
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
 	EndGlobalSection
 EndGlobal

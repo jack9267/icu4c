@@ -1,0 +1,12 @@
+/bin
+/bin64
+/lib
+/lib64
+/include
+x86
+x64
+out
+*.user
+source/extra/uconv/pkgdatain.txt
+source/extra/uconv/resources/*.res
+source/stubdata/stubdatabuilt.txt
